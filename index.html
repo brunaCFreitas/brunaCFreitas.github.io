@@ -5,56 +5,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Web - Bruna Freitas</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        body {
+            background-color: #F5FBEF;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            margin: 10px 15px;
+    
+        }
+
+        h1, h2 {
+            background-color: #582630;
+            padding:  20px;
+            color: #F5FBEF;
+            margin: 20px 0px;
+            padding: 20px;
+        }
+
+        #name {
+            background-color: #c17c74;
+            font-family: 'Aboreto', cursive;
+            font-size: 2em;
+            color: #582630;
+        }
+
+        .list-skills {
+            text-align: justify;
+            padding: 15px 50px;
+            background-color: #08415c;
+            color: #F5FBEF;
+        }
+
+        strong {
+            color: #582630;
+        }
+
+        .personal-font {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        p {
+            background-color: #ca907e98;
+            padding: 10px;
+            margin-top: 30px;
+
+        }
+
+        .bottom {
+            border: 5px solid #582630;
+            padding: 9px 40px;
+            margin-left: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            
+            
+        }
+
+        #rodape {
+            display: block;
+            margin: 50px;
+            
+        }
+        
+
+    </style>
 </head>
 <body>
     <div id="topo">
-        <!--Seu nome completo-->
-        <!--Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando-->
         <h1>Meu Portfolio Web</h1>
         <p>Este portfólio está sendo desenvolvido durante o Curso de Desenvolvimento Web na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.</p>
-        <h2>Bruna Cristina de Freitas</h2>
-        <!--Um link interno para a sua foto-->
-        <a href="imagens/bruna_g.jpg"><img src="imagens/bruna_g.jpg" alt="Foto de Bruna" width="250px"></a>
+        <h2 id="name" class="personal-font">Bruna Cristina de Freitas</h2>
+        <a href="imagens/bruna_g.jpg"><img src="imagens/bruna_g.jpg" alt="Foto de Bruna" width="300px"></a>
     </div>
 
     <div id="menu">
-        <!--Um índice com links internos para as diferentes seções do seu portfólio-->
         <h2>Menu</h2>
-        <a href="#descricao">Descrição</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#recomendacoes">Recomendações</a>
+        <a class="bottom" href="#descricao">Descrição</a>
+        <a class="bottom" href="#habilidades">Habilidades</a>
+        <a class="bottom" href="#recomendacoes">Recomendações</a>
     </div>
 
     <div>
         <h2>Redes Sociais</h2>
-        <a href="https://www.instagram.com/bru.cfreitas/" target="_blank">Instagram</a>
-        <a href="https://www.linkedin.com/in/bruna-freitas-63a295161/" target="_blank">Linkedin</a>
+        <a class="bottom" href="https://www.instagram.com/bru.cfreitas/" target="_blank">Instagram</a>
+        <a class="bottom" href="https://www.linkedin.com/in/bruna-freitas-63a295161/" target="_blank">Linkedin</a>
     </div>
 
-    <div id="descricao">
-        <!--Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora-->
-        <!--Partes do seu portfólio destacadas com negrito e/ou itálico-->
+    <div id="descricao" class="personal-font">
         <h2>Descrição</h2>
-        <p>Tenho <strong>30 anos</strong>, sou <strong>brasileira</strong> e moro em <strong>Juiz de Fora/MG.</strong> <br>Estou em transição de carreira, conheci a programação através de amigos e durante a Pandemia e resolvi me aventurar, participando de imersões e cursos básicos online, amei e decidi mudar de vez para essa área. <br>Atualmente curso <em>Análise e Desenvolvimento de Sistemas</em> na <a href="https://www.cruzeirodosulvirtual.com.br/graduacao/analise-e-desenvolvimento-de-sistemas/" target="_blank" rel="external">Cruzeiro do Sul Virtual</a> e <em>Desenvolvimento Web</em> na <a href="https://www.betrybe.com/" target="_blank" rel="external">Trybe</a>.</p>
+        <p>Tenho <strong>30 anos</strong>, sou <strong>brasileira</strong> e moro em <strong>Juiz de Fora/MG.</strong><br>
+        Estou em transição de carreira, conheci a programação através de amigos e durante a Pandemia e resolvi me aventurar, participando de imersões e cursos básicos online, amei e decidi mudar de vez para essa área.<br>
+        Atualmente curso <em>Análise e Desenvolvimento de Sistemas</em> na <a href="https://www.cruzeirodosulvirtual.com.br/graduacao/analise-e-desenvolvimento-de-sistemas/" target="_blank" rel="external">Cruzeiro do Sul Virtual</a> e <em>Desenvolvimento Web</em> na 
+        <a href="https://www.betrybe.com/" target="_blank" rel="external">Trybe</a>.
+        </p>
 
     </div>
 
     <div id="habilidades">
-        <!--Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha-->
         <h2>Habilidades</h2>
-        <h3>Softskills</h3>
-        <ul>
-            <li><strong>Foco</strong></li>
+        <h3 class="list-skills">Softskills</h3>
+        <ul class="list-skills">
+            <li>Foco</li>
             <li>Determinação</li>
             <li>Resiliência</li>
             <li>Adaptabilidade</li>
             <li>Escuta Ativa</li>
-            <li><strong>Pro-atividade</strong></li>
+            <li>Pro-atividade</li>
         </ul>
-
-        <h3>Hardskills - <em>Em desenvolvimento</em></h3>
-        <ul>
+        <h3 class="list-skills">Hardskills</h3>
+        <ul class="list-skills">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -62,14 +134,32 @@
     </div>
 
     <div id="recomendacoes">
-        <!--Um link externo para algum blog de que você goste, que abra em uma nova aba-->
         <h2>Recomendações</h2>
-        <a href="#">Curso em Vídeo</a>
-        <a href="#">DIO</a>
+        <a class="bottom" href="https://www.cursoemvideo.com/" target="_blank" rel="nofollow">Curso em Vídeo</a>
+        <a class="bottom" href="https://www.dio.me/" target="_blank" rel="nofollow">DIO</a>
+        <br>
     </div>
 
     <div id="rodape">
-        <p><a href="#topo">Voltar ao Topo</a></p>
+        <a class="bottom" href="#topo">Voltar ao Topo</a>
     </div>
 </body>
+
 </html>
+
+<!--REQUISITOS DIA 1 -->
+
+<!-- 1- Seu nome completo-->
+<!-- 2- Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando-->
+<!-- 3- Um índice com links internos para as diferentes seções do seu portfólio-->
+<!-- 4- Um link interno para a sua foto-->
+<!-- 5 -Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora-->
+<!-- 6- Partes do seu portfólio destacadas com negrito e/ou itálico-->
+<!-- 7- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha-->
+<!-- 8- Um link externo para algum blog de que você goste, que abra em uma nova aba-->
+
+<!-- REQUISITOS DIA 2 -->
+<!-- 1- Defina fontes diferentes para o seu nome e para a descrição que você criou-->
+<!-- 2- Defina uma cor base de background do seu Portfólio Web -->
+<!-- 3- Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora -->
+<!-- 4- Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos-->
