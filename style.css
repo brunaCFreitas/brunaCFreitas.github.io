@@ -11,7 +11,7 @@ body {
 }
 
 h3 {
-    background-image: linear-gradient(to right, #9c1759, #901A3d, #7f0734, #630c2e, #3e090f);
+    background-color: #3635359d;
     padding: 10px;
     border-radius: 5px;
 }
@@ -26,7 +26,7 @@ ul {
     font-size: 1.1em;
     font-weight: bold;
     text-align: right;
-    background-image: linear-gradient(to right, #9c1759, #901A3d, #7f0734, #630c2e, #3e090f);
+    background-color: #41414196;
     padding: 20px;
     
 }
@@ -39,7 +39,7 @@ a {
 #description {
     font-family: 'Nunito', sans-serif;
     height: 330px;
-    margin: 0 30px;
+    margin: auto;
 }
 
 #content-image {
@@ -49,6 +49,7 @@ a {
     padding: 10px;
     background-color: #41414196;
     border-radius: 5%;
+    margin-right: 136px;
 }
 
 #content-text {
@@ -57,7 +58,7 @@ a {
     text-align: center;
     vertical-align: middle;
     height: auto;
-    margin: 63px;
+    margin: 50px;
     padding: 20px;
 }
 
@@ -72,7 +73,7 @@ a {
 }
 
 #skills {
-    margin: 50px;
+    margin: auto;
     width: 64%;
     text-decoration: none;
     padding: 20px;
@@ -91,7 +92,8 @@ a {
 }
 
 #indications {
-    width: 75%;
+    width: 80%;
+    margin: auto;
 }
 
 #indications li{
@@ -115,14 +117,17 @@ a {
     display: inline-block;
     padding: 20px;
     margin: 20px;
-    background-color:  #3e090f;
+    background-color:  white;
     text-decoration: none;
-    color: white;
+    color: black;
     border-radius: 5px;
+    
 }
 
 .link-botton-footer:hover  {
-    background-color: #6e0525;
+    background-color: #41414196;
+    color: white;
+    padding: 25px;
  
 }  
  
